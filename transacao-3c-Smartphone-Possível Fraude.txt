@@ -1,0 +1,55 @@
+# Análise e Recomendação — Transação `ID: 3c`
+
+---
+
+## 📋 Resumo da Transação
+
+| Campo | Detalhe |
+|---|---|
+| **Tipo** | Crédito |
+| **Estabelecimento** | Eletrônicos ABC |
+| **Valor** | R$ 2.459,00 |
+| **Produto** | Smartphone |
+| **Horário** | 18h53 — 14/02/2024 |
+| **Localização** | Fortaleza - CE (Brasil) |
+| **Status** | ⚠️ Possível Fraude |
+
+---
+
+## 🚨 Recomendações Técnicas
+
+### 1. `ACIONAR SETOR ANTI-FRAUDE` — *Prioridade: ALTA*
+> A transação deve ser **imediatamente escalada** ao setor Anti-Fraude para análise aprofundada do padrão comportamental do titular. O valor elevado associado à categoria de produto (eletrônico de alta liquidez) e ao horário da operação configura **nível de risco crítico**, exigindo intervenção especializada antes de qualquer liberação.
+
+---
+
+### 2. `NOTIFICAR CLIENTE` — *Prioridade: ALTA*
+> Deve-se **acionar o titular do cartão** por canal seguro e previamente cadastrado (SMS, push notification ou contato telefônico) para **confirmação ativa da transação**. A operação deverá permanecer com status **bloqueado/pendente** até que a autenticidade seja validada pelo próprio titular.
+
+---
+
+### 3. `REALIZAR VERIFICAÇÃO MANUAL` — *Prioridade: MÉDIA*
+> Recomenda-se a **validação manual do histórico transacional** do cliente, verificando:
+> - Compatibilidade da localização (Fortaleza - CE) com o perfil geográfico habitual;
+> - Existência de transações recentes em localidades distintas *(possível card cloning)*;
+> - Padrão de compras anteriores em estabelecimentos de eletrônicos.
+
+---
+
+## 🔍 Classificação do Tipo de Fraude
+
+```
+CATEGORIA PRIMÁRIA   : Fraude de Cartão Presente / Card-Not-Present (CNP)
+SUBCATEGORIA         : Aquisição Fraudulenta de Bens de Alta Liquidez
+VETOR DE RISCO       : Eletrônicos de fácil revenda (Smartphone)
+INDICADORES ATIVOS   :
+  [+] Valor acima do ticket médio esperado para o perfil
+  [+] Horário de risco elevado (período noturno/vespertino tardio)
+  [+] Categoria de produto com alto índice de fraude (eletrônicos)
+  [+] Necessidade de validação geolocalização vs. perfil do titular
+NÍVEL DE RISCO       : CRÍTICO 🔴
+```
+
+---
+
+> ⚠️ **Ação imediata recomendada:** Suspender preventivamente a transação e acionar os protocolos Anti-Fraude antes da liquidação da operação.

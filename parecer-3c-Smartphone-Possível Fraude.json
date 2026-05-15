@@ -1,0 +1,11 @@
+{
+    "id": "3c",
+    "tipo": "Crédito",
+    "estabelecimento": "Eletrônicos ABC",
+    "horario": "2024-02-14 18:53:28",
+    "valor": "R$2459,00",
+    "nome_produto": "Smartphone",
+    "localizacao": "Fortaleza - CE (Brasil)",
+    "status": "Possível Fraude",
+    "parecer": "A transação apresenta indicadores suspeitos que justificam a classificação como possível fraude: (1) O valor elevado de R$2.459,00 para a compra de um Smartphone no crédito representa um gasto significativo e atípico; (2) O horário da transação às 18:53 pode indicar uma tentativa de compra fora do horário comercial convencional, reduzindo chances de verificação imediata; (3) Compras de alto valor em eletrônicos, especialmente Smartphones, são alvos frequentes de fraudes com cartões clonados ou roubados, pois são itens de fácil revenda. Recomenda-se contato imediato com o titular do cartão para confirmar a autenticidade da compra antes de aprovar a transação."
+}

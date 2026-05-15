@@ -1,0 +1,69 @@
+# Recomendação de Segurança — Transação ID: `9c`
+
+---
+
+## ⚠️ ACIONAMENTO DO SETOR ANTI-FRAUDE
+
+---
+
+### 📋 Dados da Transação
+
+| Campo | Detalhe |
+|---|---|
+| **ID** | 9c |
+| **Tipo** | Crédito |
+| **Estabelecimento** | EsporteMax |
+| **Horário** | 07/02/2024 às 19:53:28 |
+| **Valor** | R$ 1.150,00 |
+| **Produto** | Equipamento Esportivo |
+| **Localização** | Belo Horizonte - MG (Brasil) |
+| **Status** | 🔴 Possível Fraude |
+
+---
+
+### 🔍 Indicadores de Risco Identificados
+
+> **[RISCO 01 — VALOR ATÍPICO]**
+> Transação de alto valor (R$ 1.150,00) em categoria de produto genérica, compatível com padrão de **maximização de uso indevido** de cartão comprometido.
+
+> **[RISCO 02 — HORÁRIO SUSPEITO]**
+> Operação realizada às **19:53h**, fora do horário comercial convencional, período estatisticamente associado à **redução de supervisão transacional**.
+
+> **[RISCO 03 — DESCRIÇÃO GENÉRICA]**
+> Produto descrito de forma vaga como *"Equipamento Esportivo"*, sem SKU, modelo ou especificação técnica, podendo indicar **tentativa de ofuscação da natureza real da compra**.
+
+---
+
+### 🚨 Classificação do Tipo de Fraude
+
+```
+CATEGORIA PRIMÁRIA  : Fraude por Cartão Clonado / Comprometido
+CATEGORIA SECUNDÁRIA: Possível Teste de Limite (Carding)
+NÍVEL DE RISCO      : ALTO
+SCORE DE SUSPEIÇÃO  : ■■■■□ (4/5)
+```
+
+---
+
+### ✅ Ações Recomendadas
+
+```
+[AÇÃO 01] → BLOQUEAR transação preventivamente até validação.
+[AÇÃO 02] → ACIONAR equipe Anti-Fraude para análise imediata do perfil
+             transacional do titular.
+[AÇÃO 03] → NOTIFICAR o titular do cartão via canal seguro (SMS/App)
+             para confirmação de autenticidade.
+[AÇÃO 04] → VERIFICAR histórico de transações recentes do cartão em
+             busca de padrões de comportamento anômalos.
+[AÇÃO 05] → REGISTRAR ocorrência no sistema de monitoramento para
+             rastreamento e auditoria.
+```
+
+---
+
+### 📌 Observação Técnica Final
+
+> Esta transação **não deve ser aprovada automaticamente**. A liberação fica condicionada à **confirmação explícita do titular** e ao **parecer conclusivo do setor Anti-Fraude**, conforme protocolo de segurança vigente.
+
+---
+`Sistema de Análise de Risco Transacional` | `Gerado automaticamente` | `07/02/2024 - 19:53:28`

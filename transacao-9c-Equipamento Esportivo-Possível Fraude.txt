@@ -1,0 +1,56 @@
+# Análise e Recomendação Técnica de Transação
+
+---
+
+## 🔴 Identificação da Transação
+| Campo | Detalhe |
+|---|---|
+| **ID** | 9c |
+| **Status** | Possível Fraude |
+| **Valor** | R$ 1.150,00 |
+| **Estabelecimento** | EsporteMax |
+| **Localização** | Belo Horizonte - MG |
+| **Horário** | 19:53:28 |
+
+---
+
+## ⚠️ Classificação do Tipo de Fraude
+
+> **Fraude por Comprometimento de Conta (Account Takeover Fraud)**
+> Suspeita de uso não autorizado de credenciais do titular, caracterizada por transação de **alto valor**, **descrição genérica de produto** e **horário de baixa vigilância**, padrão consistente com tentativas de liquidação rápida de ativos por agentes fraudulentos.
+
+---
+
+## 📋 Recomendações Técnicas
+
+### 1. 🚨 Acionar Setor Anti-Fraude
+> A transação deve ser **imediatamente escalada** ao setor de Anti-Fraude para análise aprofundada, dado o score de risco elevado. A combinação de **valor acima do limiar padrão**, **descrição de produto inconsistente** e **horário noturno** configura múltiplos indicadores de risco simultâneos.
+
+---
+
+### 2. 📲 Notificar Cliente
+> Deve-se **notificar o titular do cartão** por canal seguro e previamente cadastrado (SMS, push notification ou e-mail criptografado), solicitando **confirmação ativa da transação** dentro de uma janela de tempo definida. A ausência de resposta dentro do prazo deve resultar no **bloqueio preventivo** da operação.
+
+---
+
+### 3. 🔍 Realizar Verificação Manual
+> Recomenda-se a **análise manual do histórico transacional** do titular, contemplando:
+> - Verificação de padrão de compras recorrentes no estabelecimento **EsporteMax**
+> - Análise de **geolocalização** comparativa com transações anteriores
+> - Validação do **ticket médio histórico** do cliente versus o valor transacionado
+> - Checagem de **múltiplas tentativas de transação** no mesmo período
+
+---
+
+## 🔒 Ação Imediata Recomendada
+
+```
+PRIORIDADE: ALTA
+AÇÃO: Suspender autorização da transação ID#9c até
+conclusão da verificação pelo setor Anti-Fraude
+e confirmação explícita do titular.
+PRAZO MÁXIMO DE RESOLUÇÃO: 24 horas
+```
+
+---
+> **Nota Técnica:** A transação **não deve ser aprovada automaticamente** enquanto os três protocolos acima não forem concluídos. Recomenda-se o registro completo do incidente para fins de auditoria e alimentação do modelo de detecção de fraudes.

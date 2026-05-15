@@ -1,0 +1,11 @@
+{
+    "id": "9c",
+    "tipo": "Crédito",
+    "estabelecimento": "EsporteMax",
+    "horario": "2024-02-07 19:53:28",
+    "valor": "R$1150,00",
+    "nome_produto": "Equipamento Esportivo",
+    "localizacao": "Belo Horizonte - MG (Brasil)",
+    "status": "Possível Fraude",
+    "parecer": "A transação apresenta alguns indicadores de risco que justificam a classificação como possível fraude: (1) O valor de R$1.150,00 é considerado elevado para uma compra de equipamento esportivo em uma única transação de crédito, o que pode indicar uma tentativa de maximizar o uso indevido de um cartão clonado ou comprometido; (2) O horário da transação, às 19:53, está fora do horário comercial convencional, período frequentemente associado a atividades fraudulentas, quando a supervisão é menor; (3) A descrição genérica do produto como 'Equipamento Esportivo' sem maior detalhamento pode indicar uma tentativa de mascarar a real natureza da compra. Recomenda-se contato imediato com o titular do cartão para confirmar a autenticidade da transação antes de aprová-la."
+}

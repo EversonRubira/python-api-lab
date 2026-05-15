@@ -1,0 +1,74 @@
+# Recomendação de Segurança Transacional
+
+---
+
+## 🔴 ACIONAR SETOR ANTI-FRAUDE
+
+---
+
+### Identificação da Transação
+| Campo | Detalhe |
+|---|---|
+| **ID** | 3c |
+| **Tipo** | Crédito |
+| **Estabelecimento** | Eletrônicos ABC |
+| **Data/Hora** | 2024-02-14 às 18:53:28 |
+| **Valor** | R$ 2.459,00 |
+| **Produto** | Smartphone |
+| **Localização** | Fortaleza - CE (Brasil) |
+| **Status** | 🚨 Possível Fraude |
+
+---
+
+### Classificação do Tipo de Fraude
+> **Card-Present Fraud / Card-Not-Present Fraud (Possível Clonagem ou Roubo de Cartão)**
+> Categoria: *High-Value Electronics Fraud*
+
+---
+
+### Indicadores de Risco Identificados
+
+```
+[ALERTA 01] - VALOR ATÍPICO ELEVADO
+         Valor de R$2.459,00 excede padrão
+         convencional para perfil de compra
+         em estabelecimento de eletrônicos.
+
+[ALERTA 02] - HORÁRIO SUSPEITO
+         Transação registrada às 18:53:28,
+         fora do horário comercial padrão,
+         reduzindo janela de verificação
+         imediata pelo titular.
+
+[ALERTA 03] - CATEGORIA DE ALTO RISCO
+         Smartphones figuram entre os itens
+         de maior incidência em fraudes por
+         cartão clonado/roubado, dado o alto
+         índice de liquidez no mercado paralelo.
+```
+
+---
+
+### Ações Recomendadas
+
+**[PRIORIDADE ALTA]**
+
+- 🔒 **Suspender** a transação preventivamente até validação completa
+- 📞 **Acionar imediatamente** o setor Anti-Fraude para análise aprofundada
+- 📲 **Notificar o titular** do cartão via canal seguro (SMS/App) para confirmação de autenticidade
+- 🔍 **Solicitar verificação manual** do histórico transacional do titular nas últimas 24h
+- 📋 **Registrar ocorrência** no sistema de monitoramento com flag de *High-Value Electronics Fraud*
+
+---
+
+### Nível de Risco
+
+```
+BAIXO  ░░░░░░░░░░  ALTO
+       ████████░░  80%
+```
+> **Risco Estimado: ALTO** — Recomenda-se bloqueio preventivo até confirmação do titular.
+
+---
+
+> ⚠️ *Esta recomendação foi gerada com base nos indicadores da transação e deve ser tratada com prioridade pela equipe responsável.*
