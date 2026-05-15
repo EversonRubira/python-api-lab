@@ -1,0 +1,16 @@
+Nome do Restaurante: Restaurante de Comida Chinesa
+
+**Resumo das Avaliações:**
+O restaurante se destaca pela autenticidade e qualidade dos ingredientes frescos, com pratos saborosos e consistentes que conquistam clientes frequentes. Porém, há críticas sobre variedade limitada de pratos e sobremesas, preços elevados, atendimento frio e inconsistência em alguns itens do cardápio.
+
+**Sentimento Geral:** Positivo
+
+**Pontos Fortes:**
+- 🟢 Ingredientes frescos e de qualidade, com sabor autêntico e sem artificialidade
+- 🟢 Consistência no sabor dos pratos ao longo das visitas
+- 🟢 Ambiente confortável e chá gelado chinês bem avaliado
+
+**Pontos Fracos:**
+- 🔴 Variedade limitada de pratos e opções reduzidas de sobremesas
+- 🔴 Preço elevado em comparação a restaurantes convencionais, dificultando visitas frequentes
+- 🔴 Atendimento pouco cordial, tempo de entrega demorado e inconsistência na textura de alguns pratos (ex.: frango seco)
