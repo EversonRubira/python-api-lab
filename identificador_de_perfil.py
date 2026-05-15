@@ -1,6 +1,7 @@
 import anthropic
 import dotenv
 import os
+from helpers import *
 
 dotenv.load_dotenv()
 cliente = anthropic.Anthropic(
@@ -17,19 +18,7 @@ def identificar_perfil_de_consumo():
 
     cliente - perfil do cliente em 3 palafras
     """
-    prompt_do_usuario = """
-    cliente00:"caldo verde, bacalhau à brás, pastel de nata"
-    cliente01:"sushi, tempura, sorvete mochi"
-    cliente02:"hambúrguer, batata frita, milkshake de baunilha"
-    cliente03:"pizza margherita, bruschetta, tiramisù"
-    cliente04:"tacos, guacamole, churros"
-    cliente05:"falafel, homus, baklava"
-    cliente06:"curry de frango, naan, lassi de manga"
-    cliente07:"salada caesar, sopa de tomate, cheesecake"
-    cliente08:"sushi vegetariano, edamame, bolo de chá verde"
-    cliente09:"bife grelhado, purê de batatas, pudim de leite"
-    cliente10:"paella, tapas, crema catalana"
-    """
+    prompt_do_usuario = carrega("./dados/lista_de_consumo/lista_de_consumo_100_clientes.csv")
 
     mensagem = cliente.messages.create(
         model=modelo,
